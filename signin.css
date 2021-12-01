@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(229, 229, 229, 0.31);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  height: 450px;
+  width: 1624;
+  border-radius: 30px;
+}
+.elipse {
+  position: absolute;
+  width: 197px;
+  height: 182px;
+  left: 219.03px;
+  top: 194px;
+
+  background: rgba(186, 153, 68, 0.06);
+  border-radius: 50%;
+}
+.background-box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+}
+nav,
+ul,
+li {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  padding-right: 36px;
+  margin-top: 10px;
+  list-style-type: none;
+  color: rgba(0, 0, 0, 0.62);
+  font-weight: bold;
+  font-size: 30px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+label {
+  font-size: 20px;
+  font-weight: 700;
+}
+input {
+  border-radius: 20px;
+  border: rgba(43, 29, 29, 1);
+  width: 450px;
+  height: 45px;
+}
+#lab {
+  color: rgba(0, 0, 0, 0.69);
+}
+button {
+  color: white;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.44);
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+p {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.44);
+}
+span {
+  text-decoration: underline;
+}
+footer {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 95px;
+}
+footer,
+p {
+  font-weight: bold;
+  font-style: sans-serif;
+}

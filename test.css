@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+.main {
+  background-color: rgba(186, 153, 68, 0.44);
+  height: 300px;
+  width: 800px;
+  margin-left: 100;
+  margin-top: 400px;
+  padding-left: -0px;
+}
+
+.second {
+  background-color: black;
+  width: 300px;
+}
