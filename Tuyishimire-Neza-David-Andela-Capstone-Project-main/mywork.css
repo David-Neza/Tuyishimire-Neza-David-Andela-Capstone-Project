@@ -1,49 +1,71 @@
+body {
+  margin: 0;
+}
+.content {
+  display: flex;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  margin-top: 165px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+.social-media,
+i {
+  margin-bottom: 20px;
+}
+.projects {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+img {
+  margin-right: 40px;
+}
 .container {
   display: flex;
   flex-direction: column;
-  background-color: rgba(229, 229, 229, 0.38);
+  background-color: rgba(229, 229, 229, 0.14);
   border-radius: 30px;
   height: 530px;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 500;
+  margin-left: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .elipse {
   position: absolute;
   width: 100px;
   height: 100px;
-  left: 219.03px;
-  top: 194px;
+  left: 135.03px;
+  top: 80px;
+  margin-right: 1000px;
   display: flex;
   justify-content: space-between;
   background: rgba(186, 153, 68, 0.17);
   border-radius: 50%;
 }
-.projects {
+.profile {
   display: flex;
   justify-content: flex-end;
-  padding-right: 80px;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-left: 20px;
 }
-.social-media {
-  margin-top: 80px;
-  margin-left: 170px;
-}
-img {
-  margin-right: 50px;
-}
+
 p {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.44);
 }
-span {
-  text-decoration: underline 2px solid #c66666;
-}
 #desc {
-  margin-left: 100px;
+  margin-left: 200px;
   margin-top: 200px;
 }
-
+span {
+  color: black;
+  font-size: 30px;
+}
 button {
   color: white;
   font-size: 12px;
@@ -53,11 +75,6 @@ button {
   height: 32px;
   border-radius: 50px;
   margin-left: 300px;
-}
-
-.social-media,
-i {
-  margin-right: 20px;
 }
 
 nav,
@@ -71,16 +88,11 @@ li {
   display: flex;
   justify-content: space-around;
   justify-content: flex-end;
-  padding-right: 18px;
+  padding-right: 36px;
   list-style-type: none;
   color: rgba(0, 0, 0, 0.62);
   font-weight: bold;
   font-size: 15px;
-}
-#words {
-  font-size: 20px;
-  margin-left: 167px;
-  padding-top: 30px;
 }
 footer {
   display: flex;
@@ -102,4 +114,18 @@ p {
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.62);
+}
+#words {
+  font-size: 20px;
+  margin-left: 200px;
+  padding-top: 50px;
+}
+span {
+  text-decoration: underline 2px solid #c66666;
+  color: rgba(0, 0, 0, 0.62);
+}
+#words2 {
+  font-size: 20px;
+  margin-left: 5px;
+  padding-top: 50px;
 }

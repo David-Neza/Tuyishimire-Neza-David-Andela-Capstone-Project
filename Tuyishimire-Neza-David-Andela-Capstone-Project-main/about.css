@@ -1,3 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 400%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.skills-container {
+  margin-top: 40px;
+  padding-left: 250px;
+}
+#ht {
+  color: rgba(219, 64, 16, 1);
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: rgba(219, 64, 16, 1);
+} /* Green */
+.css {
+  width: 80%;
+  background-color: rgba(219, 64, 16, 1);
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: rgba(219, 64, 16, 1);
+} /* Red */
+.java {
+  width: 60%;
+  background-color: rgba(219, 64, 16, 1);
+} /* Dark Grey */
+
+.html {
+  width: 90%;
+  background-color: rgba(219, 64, 16, 1);
+}
 body {
   margin: 0;
 }
@@ -16,15 +65,16 @@ body {
 i {
   margin-bottom: 20px;
 }
-.container {
+.main-container {
+  padding-top: 150px;
   display: flex;
   flex-direction: row;
-  background-color: rgba(229, 229, 229, 0.14);
+  background-color: rgba(229, 229, 229, 1);
   border-radius: 30px;
   height: 530px;
   width: 1600;
-  margin-left: 100px;
-  padding-right: 300px;
+  margin-left: 50px;
+  padding-right: 600px;
   padding-left: 10px;
 }
 .elipse {
@@ -53,8 +103,9 @@ p {
   color: rgba(0, 0, 0, 0.44);
 }
 #desc {
-  margin-left: 200px;
-  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 span {
   color: black;
@@ -108,4 +159,9 @@ p {
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.62);
+}
+#acc1 {
+  padding-top: 210px;
+  font-size: 10px;
+  display: block;
 }
