@@ -3,9 +3,22 @@
   flex-direction: row;
   background-color: rgba(229, 229, 229, 0.14);
   border-radius: 30px;
-  height: 550px;
+  height: 530px;
   margin-left: 50px;
   margin-right: 50px;
+  padding-left: 10px;
+}
+.elipse {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 219.03px;
+  top: 194px;
+  margin-right: 1000px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(186, 153, 68, 0.17);
+  border-radius: 50%;
 }
 .profile {
   display: flex;
@@ -38,6 +51,14 @@ button {
   border-radius: 50px;
   margin-left: 300px;
 }
+.social-media {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.social-media,
+i {
+  margin-right: 20px;
+}
 
 nav,
 ul {
@@ -50,7 +71,7 @@ li {
   display: flex;
   justify-content: space-around;
   justify-content: flex-end;
-  padding-right: 36px;
+  padding-right: 18px;
   list-style-type: none;
   color: rgba(0, 0, 0, 0.62);
   font-weight: bold;
@@ -68,4 +89,12 @@ p {
 }
 #ft {
   color: black;
+  font-size: 20px;
+  color: rgba(190, 97, 97, 1);
+  color: rgba(0, 0, 0, 0.62);
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.62);
 }
