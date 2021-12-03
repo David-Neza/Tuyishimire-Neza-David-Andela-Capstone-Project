@@ -19,7 +19,7 @@ i {
 .container {
   display: flex;
   flex-direction: row;
-  background-color: rgba(229, 229, 229, 0.14);
+  background-color: rgba(229, 229, 229, 0.38);
   border-radius: 30px;
   height: 530px;
   width: 1600;

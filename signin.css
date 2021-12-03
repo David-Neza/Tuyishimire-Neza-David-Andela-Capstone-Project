@@ -85,7 +85,7 @@ input {
 }
 button {
   color: white;
-  font-size: 25px;
+  font-size: 40x;
   background-color: rgba(0, 0, 0, 0.44);
   width: 140px;
   height: 40px;
@@ -103,6 +103,8 @@ p {
   color: white;
   font-weight: 700;
   margin-left: 450px;
+  font-size: 40px;
+  padding-bottom: 30px;
 }
 a {
   text-decoration: none;
