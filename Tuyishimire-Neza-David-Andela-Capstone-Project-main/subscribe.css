@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+.content {
+  display: flex;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  margin-top: 165px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+}
+.social-media,
+i {
+  margin-bottom: 20px;
+}
+.elipse {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 219.03px;
+  top: 194px;
+  margin-right: 1000px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(186, 153, 68, 0.17);
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(229, 229, 229, 1);
+  border-radius: 30px;
+  height: 531px;
+  width: 1160px;
+  margin-left: 100px;
+  margin-right: 15px;
+}
+#title,
+p {
+  position: fixed;
+  margin-left: 230px;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.61);
+}
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+}
+nav,
+ul,
+li {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  padding-right: 35px;
+  list-style-type: none;
+  color: rgba(0, 0, 0, 0.62);
+  font-weight: bold;
+  font-size: 20px;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 500px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 700;
+}
+input {
+  border-radius: 20px;
+  border: rgba(43, 29, 29, 1);
+  width: 450px;
+  height: 30px;
+}
+#lab {
+  color: rgba(0, 0, 0, 0.69);
+}
+button {
+  color: white;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.44);
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+}
+p {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+p {
+  color: rgba(186, 153, 68, 1);
+}
+#desc {
+  color: white;
+  font-weight: 700;
+  margin-left: 450px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.62);
+}
+h3 {
+  font-size: 20px;
+}
+#author {
+  font-size: 15px;
+  color: rgba(186, 153, 68, 0.64);
+  display: flex;
+  justify-content: flex-end;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 100px;
+  margin-right: 110px;
+}
+#fot1,
+#fot2 {
+  font-size: 20px;
+  display: flex;
+}
+#fot1 {
+  color: rgba(251, 62, 2, 1);
+}
+#fot2 {
+  color: rgba(0, 0, 0, 1);
+}
+#acc {
+  color: rgba(0, 0, 0, 0.61);
+  margin-left: 100px;
+}
+span {
+  text-decoration: underline 2px solid #c66666;
+  color: rgba(0, 0, 0, 0.61);
+}

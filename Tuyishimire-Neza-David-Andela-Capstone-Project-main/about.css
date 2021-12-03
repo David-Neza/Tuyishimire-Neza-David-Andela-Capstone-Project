@@ -58,8 +58,6 @@ body {
   flex-direction: column;
   margin-top: 165px;
   margin-bottom: 100px;
-  margin-left: 30px;
-  margin-right: 40px;
 }
 .social-media,
 i {
@@ -72,10 +70,9 @@ i {
   background-color: rgba(229, 229, 229, 1);
   border-radius: 30px;
   height: 530px;
-  width: 1600;
-  margin-left: 50px;
-  padding-right: 600px;
-  padding-left: 10px;
+  width: 1500;
+  margin-left: 30px;
+  padding-right: 565px;
 }
 .elipse {
   position: absolute;
@@ -164,4 +161,11 @@ a {
   padding-top: 210px;
   font-size: 10px;
   display: block;
+}
+
+.social-media,
+#nn {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
 }

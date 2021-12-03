@@ -9,8 +9,8 @@ body {
   flex-direction: column;
   margin-top: 165px;
   margin-bottom: 100px;
-  margin-left: 30px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 1px;
 }
 .social-media,
 i {
@@ -23,7 +23,7 @@ i {
   border-radius: 30px;
   height: 530px;
   width: 1600;
-  margin-left: 100px;
+  margin-left: 65px;
   padding-right: 300px;
   padding-left: 10px;
 }
@@ -108,4 +108,15 @@ p {
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.62);
+}
+.social-media,
+#nn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container {
+  padding-left: 140px;
+  padding-right: 300px;
 }
